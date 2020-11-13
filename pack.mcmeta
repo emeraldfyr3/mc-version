@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "Get the current Minecraft version in scoreboard",
+    "description": "Get the running Minecraft version in scoreboard",
     "pack_format": 6
   }
 }
