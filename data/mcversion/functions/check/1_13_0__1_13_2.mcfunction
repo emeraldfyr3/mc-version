@@ -23,14 +23,3 @@ scoreboard players operation #var1 mcversion /= #var2 mcversion
 scoreboard players operation patch mcversion = #var1 mcversion
 
 # TODO: Check for 1.13.2
-
-
-# Prior to 1.14.1, load functions ran in random order.
-# That means that the 1.14 checks could run before this function.
-# If this indicator is set, it means the version is 1.14.0.
-scoreboard players operation minor mcversion += #1_14_ran mcversion
-# If #1_14_ran is 0, set to 1. If 1, set to 0. Operation: (x - 1)^2
-scoreboard players remove #1_14_ran mcversion 1
-scoreboard players operation #1_14_ran mcversion *= #1_14_ran mcversion
-# If #1_14_ran was 1 (now 0), set patch to 0. If #1_14_ran was 0 (now 1), keep patch the same.
-scoreboard players operation patch mcversion *= #1_14_ran mcversion

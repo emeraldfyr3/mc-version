@@ -1,5 +1,5 @@
 {
   "values": [
-    "#mcversion:load"
+    "mcversion:check"
   ]
 }
