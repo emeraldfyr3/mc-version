@@ -6,4 +6,5 @@ execute if score minor mcversion matches ..15 run function mcversion:check/1_16
 execute if score minor mcversion matches ..14 run function mcversion:check/1_15
 
 # Find patch version
-execute if score minor mcversion matches ..14 run schedule function mcversion:check/1_14_0 10
+execute if score minor mcversion matches ..14 run function mcversion:check/1_14_4
+execute if score minor mcversion matches ..14 if score patch mcversion matches ..3 run schedule function mcversion:check/1_14_1__1_14_3 10
