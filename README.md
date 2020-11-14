@@ -9,27 +9,17 @@ Detect the running version of Minecraft: Java Edition. On load, the version will
 
 The following versions can and cannot be detected by this data pack:
 
-### Supported Versions
+### Detected Versions
 
-- 1.13
-- 1.13.1
-- 1.14
-- 1.14.1
-- 1.14.3
-- 1.15
-- 1.15.2
-- 1.16
-- 1.16.2
+Versions in parentheses are detected as the listed version instead of as themselves.
 
-### Unsupported Versions
-
-- 1.12.2 and below (does not detect any values)
-- 1.13.2 (detected as 1.13.1)
-- 1.14.2 (detected as 1.14.1)
-- 1.14.4 (detected as 1.14.3)
-- 1.15.1 (detected as 1.15)
-- 1.16.1 (detected as 1.16)
-- 1.16.3 (detected as 1.16.2)
-- 1.16.4 (detected as 1.16.2)
-- 1.17 and above
-- Snapshots, pre-releases, release candidates, April Fools updates, and any other special versions
+- **1.13**
+- **1.13.1** (1.13.2)
+- **1.14**
+- **1.14.1** (1.14.2)
+- **1.14.3** (1.14.4)
+- **1.15** (1.15.1)
+- **1.15.2**
+- **1.16**
+- **1.16.2** (1.16.3, 1.16.4)
+- **1.17**
