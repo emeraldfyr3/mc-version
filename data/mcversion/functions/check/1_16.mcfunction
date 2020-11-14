@@ -1,6 +1,3 @@
-#!debug
-say Checking for 1.16
-
 # 1.16: Added attribute command
 # https://minecraft.gamepedia.com/Java_Edition_1.16#Command_format
 

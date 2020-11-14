@@ -1,6 +1,3 @@
-#!debug
-say Checking for 1.15.2
-
 # 1.15.2: Added gamerule doPatrolSpawning
 # https://minecraft.gamepedia.com/Java_Edition_1.15.2#Command_format
 gamerule doPatrolSpawning

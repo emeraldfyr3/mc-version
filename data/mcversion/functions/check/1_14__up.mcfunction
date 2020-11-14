@@ -1,6 +1,3 @@
-#!debug
-say Checking for 1.14+
-
 scoreboard players set minor mcversion 14
 scoreboard players set patch mcversion 0
 
