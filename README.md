@@ -16,7 +16,8 @@ Versions in parentheses are detected as the listed version instead of as themsel
 - **1.13**
   - **1.13.1** (1.13.2)
 - **1.14**
-  - **1.14.1** (1.14.2) \[delayed\] \[entities\] \[player\]
+  - **1.14.1** \[delayed\] \[entities\] \[player\]
+  - **1.14.2** \[delayed\] \[entities\] \[player\]
   - **1.14.3** (1.14.4)
 - **1.15** (1.15.1)
   - **1.15.2**
@@ -35,6 +36,8 @@ Disabling a requirement may disable any checks that depend on it. However, if a 
   - To disable: `/scoreboard players set disable_delayed mcversion 1`
   - The check will not be completed in the same tick as the data pack is loaded.
   - The next highest non-delayed version will be detected until the check is completed. For example, if the check for 1.14.1 is delayed, the detected version will temporarily be 1.14.0.
+- **difficulty**
+  - The check will not run on Peaceful difficulty.
 - **entities**
   - To disable: `/scoreboard players set disable_entities mcversion 1`
   - The check requires summoning at least one entity.
