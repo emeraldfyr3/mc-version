@@ -1,3 +1,6 @@
+#!debug
+say Checking for 1.13+
+
 scoreboard objectives add mcversion dummy
 
 # Find major version

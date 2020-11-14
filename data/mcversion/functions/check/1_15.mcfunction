@@ -1,3 +1,6 @@
+#!debug
+say Checking for 1.15
+
 # 1.15: Added NBT text component variant for NBT storage
 # https://minecraft.gamepedia.com/Java_Edition_1.15#Command_format_2
 
