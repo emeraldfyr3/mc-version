@@ -16,8 +16,8 @@ Versions in parentheses are detected as the listed version instead of as themsel
 - **1.13**
   - **1.13.1** (1.13.2)
 - **1.14**
-  - **1.14.1** \[delayed\] \[entities\] \[player\]
-  - **1.14.2** \[delayed\] \[entities\] \[player\]
+  - **1.14.1** \[delayed\] \[entities\]
+  - **1.14.2** \[delayed\] \[entities\]
   - **1.14.3**
   - **1.14.4**
 - **1.15** (1.15.1)
