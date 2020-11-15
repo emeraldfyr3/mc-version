@@ -22,8 +22,9 @@ Versions in parentheses are detected as the listed version instead of as themsel
   - **1.14.4**
 - **1.15** (1.15.1)
   - **1.15.2**
-- **1.16**
-  - **1.16.2** (1.16.3, 1.16.4)
+- **1.16** (1.16.1)
+  - **1.16.2**
+  - **1.16.3** (1.16.4)
 - **1.17**
 
 ### Extra Requirements
