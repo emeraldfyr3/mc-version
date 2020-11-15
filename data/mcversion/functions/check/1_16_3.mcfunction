@@ -1,5 +1,5 @@
 # Need to wait until a player joins
-execute unless entity @p run schedule function mcversion:check/1_16_3 1
+execute unless score disable_delayed mcversion matches 1 unless entity @p run schedule function mcversion:check/1_16_3 1
 
 # 1.16.3: Fix: Giving an item and a gold ingot to a baby piglin and killing it duplicates the item
 # https://bugs.mojang.com/browse/MC-198678
