@@ -1,2 +1,2 @@
-# tellraw @a ["#var1: ", {"score":{"name":"#var1","objective":"mcversion"}}, ", @s: ", {"score":{"name":"@s","objective":"mcversion"}}]
-execute if score #var1 mcversion = @s mcversion run scoreboard players add #var1 mcversion 1
+# tellraw @a ["#1_13_2__count: ", {"score":{"name":"#1_13_2__count","objective":"mcversion"}}, ", @s: ", {"score":{"name":"@s","objective":"mcversion"}}]
+execute if score #1_13_2__count mcversion = @s mcversion run scoreboard players add #1_13_2__count mcversion 1
