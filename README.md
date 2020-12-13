@@ -1,13 +1,15 @@
 # Minecraft Version Detector
 
-Detect the running version of Minecraft: Java Edition. On load, the version will be put into scoreboard values on objective mcversion:
+**DOWNLOAD:** [https://github.com/emeraldfyr3/mc-version/archive/master.zip](https://github.com/emeraldfyr3/mc-version/archive/master.zip)
+
+Detect the running version of *Minecraft: Java Edition*. On load, the version will be put into scoreboard values on objective mcversion:
 - major: The first number, e.g. "1" in "1.16.4"
 - minor: The second number, e.g. "16" in "1.16.4"
 - patch: The third number, e.g. "4" in "1.16.4"
 
 ## How to Use
 
-The detector will run automatically when the world loads, or after `/reload`. The detected version will be saved in scoreboard as detailed above. You can also run `/function mcversion:tell` to see the current version.
+Download this datapack and place it in your world's datapacks folder. The detector will run automatically when the world loads, or after `/reload`. The detected version will be saved in scoreboard as detailed above. You can also run `/function mcversion:tell` to see the current version. To re-run the checks at any time, run `/function mcversion:check`.
 
 ## Detected Versions
 
