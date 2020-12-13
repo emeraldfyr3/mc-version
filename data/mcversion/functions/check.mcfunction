@@ -17,3 +17,4 @@ execute if score minor mcversion matches 15 run function mcversion:check/1_15_2
 execute if score minor mcversion matches 14 run function mcversion:check/1_14_3__1_14_4
 execute if score minor mcversion matches 14 if score patch mcversion matches 0 unless score disable_entities mcversion matches 1 run function mcversion:check/1_14_1__1_14_2
 execute if score minor mcversion matches 13 run function mcversion:check/1_13_1
+execute if score minor mcversion matches 13 if score patch mcversion matches 1 unless score disable_entities mcversion matches 1 run function mcversion:check/1_13_2
