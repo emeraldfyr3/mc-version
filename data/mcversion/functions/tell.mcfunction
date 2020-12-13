@@ -1,1 +1,2 @@
-tellraw @s ["Minecraft Version ",{"score":{"name":"major","objective":"mcversion"}},".",{"score":{"name":"minor","objective":"mcversion"}},".",{"score":{"name":"patch","objective":"mcversion"}}]
+execute unless score patch mcversion matches 1.. run tellraw @s ["Minecraft ",{"score":{"name":"major","objective":"mcversion"}},".",{"score":{"name":"minor","objective":"mcversion"}}]
+execute if score patch mcversion matches 1.. run tellraw @s ["Minecraft ",{"score":{"name":"major","objective":"mcversion"}},".",{"score":{"name":"minor","objective":"mcversion"}},".",{"score":{"name":"patch","objective":"mcversion"}}]
