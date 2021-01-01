@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd "${BASH_SOURCE[0]}"
+set -e
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
 
 DATAVERSION_CSV_FILE='dataversion.csv'
 DATAVERSION_FUNC_FILE='../data/mcversion/functions/dataversion.mcfunction'
@@ -10,8 +12,15 @@ DATAVERSION_FUNC_FILE='../data/mcversion/functions/dataversion.mcfunction'
 echo 'execute store result score #dataversion mcversion run data get entity @p DataVersion
 ' > "$DATAVERSION_FUNC_FILE"
 
-tail -n +2 "$DATAVERSION_CSV_FILE" |
-  sed 's/$/,/;s/,\([0-9]\),/,0\1,/g;s/^[^,]*,\([^,]*\),\([^,]*\),\([^,]*\),\([^,]*\)/execute if score #dataversion mcversion matches \1 run scoreboard players set #version mcversion \2\3\4/;s/ 0*\([0-9][0-9]*\)/ \1/g' >> "$DATAVERSION_FUNC_FILE"
+sed '
+  1d
+  s/,/,#/g
+  s/$/,/
+  s/#\([0-9]\),/#0\1,/g
+  s/,#/,/g
+  s/^[^,]*,\([^,]*\),\([^,]*\),\([^,]*\),\([^,]*\),/execute if score #dataversion mcversion matches \1 run scoreboard players set #version mcversion \2\3\4/
+  s/ 0*\([0-9][0-9]*\)/ \1/g
+' "$DATAVERSION_CSV_FILE" | tac >> "$DATAVERSION_FUNC_FILE"
 
 echo '
 scoreboard players set #100 mcversion 100
