@@ -4,6 +4,7 @@
 # Thanks to Evtema3 for pointing this out to me
 
 execute store result score #dataversion mcversion run data get entity @p DataVersion
+scoreboard players set #version mcversion 0
 
 execute if score #dataversion mcversion matches 100..169 run scoreboard players set #version mcversion 10900
 execute if score #dataversion mcversion matches 170..175 run scoreboard players set #version mcversion 10901

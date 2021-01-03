@@ -6,35 +6,35 @@
 # https://bugs.mojang.com/browse/MC-144496
 
 # Summon 15 Area Effect Clouds, with scores from 14 to 0 in order of oldest to newest
-execute as @e[limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
-execute as @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
+execute at @e[tag=mcversion_1_13_2,limit=1] run summon minecraft:area_effect_cloud ~ -99 ~ {Tags:["mcversion_1_13_2"]}
 scoreboard players add @e[tag=mcversion_1_13_2] mcversion 1
 
 # Set #1_13_2__count to 1 and have each cloud add 1 to it only if it matches its score.

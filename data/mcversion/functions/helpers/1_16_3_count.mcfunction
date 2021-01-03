@@ -8,4 +8,4 @@ execute at @e[type=minecraft:item,nbt={Item:{tag:{display:{Name:"{\"text\":\"mcv
 execute at @e[type=minecraft:item,nbt={Item:{tag:{display:{Name:"{\"text\":\"mcversion\"}"}}}},limit=1] unless score #1_16_3__loaded mcversion matches 1 run forceload remove 652256 1512864
 
 execute store result score #1_16_3__count mcversion run kill @e[type=minecraft:item,nbt={Item:{tag:{display:{Name:"{\"text\":\"mcversion\"}"}}}}]
-execute if score patch mcversion matches ..2 if score #1_16_3__count mcversion matches 2 run scoreboard players set patch mcversion 3
+execute if score patch mcversion matches 2 if score #1_16_3__count mcversion matches 2 run scoreboard players set patch mcversion 3
