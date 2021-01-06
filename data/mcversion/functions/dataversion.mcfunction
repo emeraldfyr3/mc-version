@@ -52,3 +52,6 @@ execute store result score minor mcversion run scoreboard players operation #ver
 scoreboard players operation minor mcversion %= #100 mcversion
 
 execute store result score major mcversion run scoreboard players operation #version mcversion /= #100 mcversion
+
+# Reset the value from mcversion:helpers/player_check_1_13
+scoreboard players set #playercheck mcversion 0
