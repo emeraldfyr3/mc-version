@@ -31,6 +31,7 @@ Some checks have extra requirements, explained below.
   - **1.16.2**
   - **1.16.3** \[delayed\] \[entities\]
   - **1.16.4** \[delayed\] \[player\]
+  - **1.16.5** \[delayed\] \[player\]
 - **1.17**
 
 ### Extra Requirements
