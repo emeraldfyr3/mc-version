@@ -40,6 +40,7 @@ execute if score #dataversion mcversion matches 2567..2567 run scoreboard player
 execute if score #dataversion mcversion matches 2569..2578 run scoreboard players set #version mcversion 11602
 execute if score #dataversion mcversion matches 2579..2580 run scoreboard players set #version mcversion 11603
 execute if score #dataversion mcversion matches 2581..2584 run scoreboard players set #version mcversion 11604
+execute if score #dataversion mcversion matches 2585..2586 run scoreboard players set #version mcversion 11605
 execute if score #dataversion mcversion matches 2681..2687 run scoreboard players set #version mcversion 11700
 execute if score #dataversion mcversion matches 2701..2707 run scoreboard players set #version mcversion 11602
 
