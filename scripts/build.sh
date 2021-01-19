@@ -16,6 +16,7 @@ echo "\
 # Thanks to Evtema3 for pointing this out to me
 
 execute store result score #dataversion mcversion run data get entity @p DataVersion
+scoreboard players set #version mcversion 0
 
 $(
   minDataVersion=
@@ -50,4 +51,7 @@ scoreboard players operation patch mcversion %= #100 mcversion
 execute store result score minor mcversion run scoreboard players operation #version mcversion /= #100 mcversion
 scoreboard players operation minor mcversion %= #100 mcversion
 
-execute store result score major mcversion run scoreboard players operation #version mcversion /= #100 mcversion" > "$DATAVERSION_FUNC_FILE"
+execute store result score major mcversion run scoreboard players operation #version mcversion /= #100 mcversion
+
+# Reset the value from mcversion:helpers/player_check_1_13
+scoreboard players set #playercheck mcversion 0" > "$DATAVERSION_FUNC_FILE"
